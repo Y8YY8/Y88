@@ -53,7 +53,7 @@ body {
   }
 
   #masseg img {
-    width: 80px;
+    width: 75px; /* تم تكبيرها من 65px إلى 75px */
     margin-bottom: 10px;
   }
 
@@ -62,3 +62,4 @@ body {
     padding: 6px 14px;
   }
 }
+
