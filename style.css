@@ -8,28 +8,28 @@ body {
 }
 
 #masseg {
-  background-color: #444;
+  background: linear-gradient(135deg, #555, #333);
   color: #fff;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 90%;
-  max-width: 480px;
-  padding: 30px;
-  border-radius: 30px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  width: 85%;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
   text-align: right;
-  font-size: 1rem;
-  line-height: 1.8;
+  font-size: 0.9rem;
+  line-height: 1.7;
 }
 
 #masseg img {
   display: block;
-  width: 100px;
+  width: 80px;
   height: auto;
   border-radius: 15px;
-  margin: 0 auto 20px auto;
+  margin: 0 auto 15px auto;
 }
 
 #masseg-button {
@@ -37,9 +37,28 @@ body {
   margin: 20px 0 0 auto;
   background-color: #000;
   color: #fff;
-  padding: 10px 20px;
+  padding: 8px 18px;
   border: none;
-  border-radius: 15px;
+  border-radius: 12px;
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 480px) {
+  #masseg {
+    width: 90%;
+    padding: 15px;
+    font-size: 0.85rem;
+    border-radius: 20px;
+  }
+
+  #masseg img {
+    width: 65px;
+    margin-bottom: 10px;
+  }
+
+  #masseg-button {
+    font-size: 0.85rem;
+    padding: 6px 14px;
+  }
 }
