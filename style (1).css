@@ -1,0 +1,45 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+}
+
+#masseg {
+  background-color: #444;
+  color: #fff;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 480px;
+  padding: 30px;
+  border-radius: 30px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  text-align: right;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+#masseg img {
+  display: block;
+  width: 100px;
+  height: auto;
+  border-radius: 15px;
+  margin: 0 auto 20px auto;
+}
+
+#masseg-button {
+  display: block;
+  margin: 20px 0 0 auto;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 1rem;
+}
