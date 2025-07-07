@@ -47,18 +47,19 @@ body {
 @media (max-width: 480px) {
   #masseg {
     width: 90%;
-    padding: 15px;
-    font-size: 0.85rem;
-    border-radius: 20px;
+    padding: 12px;
+    font-size: 0.75rem;
+    border-radius: 18px;
+    transform: translate(-50%, -50%) scale(0.9);
   }
 
   #masseg img {
-    width: 65px;
-    margin-bottom: 10px;
+    width: 60px;
+    margin-bottom: 8px;
   }
 
   #masseg-button {
-    font-size: 0.85rem;
-    padding: 6px 14px;
+    font-size: 0.8rem;
+    padding: 5px 12px;
   }
 }
